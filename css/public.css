@@ -1,0 +1,138 @@
+*{
+  margin:0;
+  padding: 0;
+}
+/*首页登陆*/
+body{
+  min-width: 640px;
+  overflow-y: scroll;
+  min-height: 200px;
+}
+.login_con{
+  width: 100%;
+  height: 0;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: 0px;
+}
+.content_header{
+  margin-top: -300px;
+}
+.login_header{
+  width: 50%;
+  height: 70px;
+  position: relative;
+  margin: 0 auto;
+  z-index: 2;
+  overflow: hidden;
+}
+.login_content{
+  width: 100%;
+  height: 350px;
+}
+.login_content .login_img{
+  width: 100%;
+  height: 350px;
+  position: absolute;
+}
+.login_content .login_img img{
+  width: 100%;
+  height: 100%;
+}
+.content_form{
+  position: relative;
+  width: 250px;
+  height: 200px;
+  text-align: center;
+  top: 30%;
+  left: 50%;
+  /*margin-top: 100px;*/
+  margin-left: -125px;
+}
+.content_form .form-control{
+  border: none;
+  outline: none;
+}
+.input-group-addon{
+  background-color: #fff !important;
+}
+.content_form .btn{
+  width: 100px;
+  height: 35px;
+  border: none !important;
+  outline: none !important;
+}
+.login_footer{
+  width: 100%;
+  height: 430px;
+}
+.login_footer span{
+  display:block;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+}
+/*首页登录样式结束*/
+/*公共的侧导航样式*/
+/*侧面固定的导航*/
+.pg-header{
+    height: 75px;
+    background-color: #2459a2;
+    /*color: white;*/
+}
+.pg-header .pg_logo{
+  width: 200px;
+  height: 58px;
+  padding: 16px 0 0 17px;
+}
+.pg-header .pg_logo img {
+  width: 117px;
+  height: 37px;
+}
+.pg_sign{
+  width: 200px;
+  height: 58px;
+  line-height: 78px;
+  float: right;
+  color: #fff;
+  margin-right: 50px;
+}
+.pg_sign li{
+  color: #fff;
+  float: right;
+  list-style-type: none;
+  font-size: 16px;
+  padding-left:10px;
+}
+.pg_sign li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.pg-content .menu{
+    position: fixed;
+    top: 75px;
+    left: 0;
+    bottom: 0;
+    width: 230px;
+    height: 100%;
+    overflow-y: auto;
+    /*background-color: #dddddd;测试用背景颜色*/
+}
+.pg-content .content{
+    position: fixed;
+    top: 75px;
+    right: 0;
+    bottom: 0;
+    left: 230px;
+    overflow: auto;   /***************当内容多时，出现滚动条**************/
+}
+/*中间部分*/

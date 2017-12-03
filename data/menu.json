@@ -1,0 +1,52 @@
+[
+{
+    "id": 1,
+    "name": "首页",
+    "icon": "fa-home",
+    "url": "demo.html"
+},
+{
+    "id": 1,
+    "name": "网络配置",
+    "icon": "fa-folder-o",
+    "url": "",
+    "children": [
+    {
+        "id": 2,
+        "name": "网卡配置",
+        "icon": "fa-file-text-o",
+        "url": "active.html"
+    },
+    {
+        "id": 3,
+        "name": "网络地址",
+        "icon": "fa-file-text-o",
+        "url": "active.html"
+    },
+    {
+        "id": 4,
+        "name": "双机与负载",
+        "icon": "fa-folder-o",
+        "url": "",
+        "children": [
+        {
+            "id": 5,
+            "name": "基本配置",
+            "icon": "fa-file-text-o",
+            "url": "active.html"
+        },
+        {
+            "id": 6,
+            "name": "双机检测",
+            "icon": "fa-folder-o",
+            "url": "",
+            "children": [
+            {
+                "id": 7,
+                "name": "基本配置",
+                "icon": "fa-file-text-o",
+                "url": "active.html"
+            }]
+        }]
+    }]
+}]
